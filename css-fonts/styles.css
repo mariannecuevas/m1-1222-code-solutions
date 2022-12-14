@@ -1,0 +1,13 @@
+h1 {
+  font-family: 'Martian Mono', monospace;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-style: oblique;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 200%;
+}
