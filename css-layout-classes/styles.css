@@ -20,7 +20,7 @@ body {
 }
 
 .column-two-thirds {
-  flex-basis: 66%;
+  flex-basis: calc(100% / 3 * 2);
 }
 
 img {
