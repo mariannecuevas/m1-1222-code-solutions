@@ -6,6 +6,8 @@ header {
   border-bottom: 1px solid #e7e9ec;
   height: 55px;
   width: 100%;
+  background: white;
+  position: fixed;
 }
 
 .container {
@@ -23,7 +25,7 @@ header > img {
   margin: 0 55px;
 }
 
-button {
+button.contact {
   font-family: Avenir, sans-serif;
   background-color: #294464;
   color: white;
@@ -50,4 +52,59 @@ button {
   color: #a0a0a0;
   width: 100px;
   padding: 20px;
+}
+
+.banner {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.banner img {
+  width: 100%;
+  max-height: 800px;
+}
+
+div > h1 {
+  font-family: "Tiempos Headline", sans-serif;
+  font-weight: normal;
+  font-size: 35px;
+  color: white;
+  position: absolute;
+  top: 250px;
+  left: 200px;
+  text-align: start;
+}
+
+div > p {
+  color: white;
+  position: absolute;
+  top: 300px;
+  left: 200px;
+  text-align: start;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 550px;
+  line-height: 1.5rem;
+}
+
+div > button {
+  position: absolute;
+  top: 490px;
+  left: 200px;
+  text-align: start;
+}
+
+button.get-started {
+  font-family: Avenir, sans-serif;
+  font-size: 17px;
+  background-color: #294464;
+  color: white;
+  border: none;
+  padding: 13px 35px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.overlay {
+  background: linear-gradient(transparent, rgb(0 0 0 / 75%));
 }
