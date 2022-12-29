@@ -116,13 +116,22 @@ section.clinicians {
   justify-content: center;
   align-items: center;
   background-color: #fafafa;
-  padding-top: 40px;
   color: #6e6e6e;
+  height: 400px;
+}
+
+.clinicians-container {
+  justify-content: center;
 }
 
 .column-full {
-  display: block;
   flex-basis: 100%;
+}
+
+.column-half {
+  flex-basis: calc(100%/2);
+  padding-top: 30px;
+  margin-right: 50px;
 }
 
 div.column-full h1 {
@@ -130,10 +139,14 @@ div.column-full h1 {
 }
 
 div.column-full p {
-  max-width: 500px;
   line-height: 1.5rem;
 }
 
 .column-half ul {
   list-style: none;
+}
+
+/* READY TO LEARN MORE SECTION */
+section.learn-more {
+  display: flex;
 }
