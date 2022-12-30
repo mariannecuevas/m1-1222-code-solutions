@@ -76,7 +76,7 @@ nav ul li a {
   text-align: start;
 }
 
-div .overlay h1 {
+div.overlay h1 {
   font-family: "Tiempos Headline", sans-serif;
   font-weight: normal;
   font-size: 42px;
@@ -84,7 +84,7 @@ div .overlay h1 {
   max-width: 550px;
 }
 
-div .overlay p {
+div.overlay p {
   color: white;
   max-width: 550px;
   line-height: 1.5rem;
@@ -147,6 +147,35 @@ div.column-full p {
 }
 
 /* READY TO LEARN MORE SECTION */
-section.learn-more {
-  display: flex;
+section.learn-more div.row {
+  justify-content: space-between;
+  background: white;
+  border-top: 1px solid #e7e9ec;
+  height: 120px;
 }
+
+.text-column {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 90px;
+  width: 240px;
+}
+
+.button-column {
+  display: flex;
+  align-items: center;
+  margin-right: 90px;
+}
+
+div.text-column h1 {
+  font-family: "Tiempos Headline", sans-serif;
+  font-weight: 400;
+  margin-bottom: 3px;
+  padding-top: 10px;
+}
+
+div.text-column p {
+  margin-top: 0;
+}
+
+/* FOOTER */
