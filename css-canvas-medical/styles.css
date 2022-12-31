@@ -62,9 +62,10 @@ nav ul li a {
 
 .hero-image {
   position: relative;
-  width: 100%;
-  min-height: 70vh;
+  max-width: 100%;
+  min-height: 656px;
   background-size: cover;
+  background-position: center;
   background-image: url("images/hero.jpg");
 }
 
@@ -172,10 +173,97 @@ div.text-column h1 {
   font-weight: 400;
   margin-bottom: 3px;
   padding-top: 10px;
+  color: #6e6e6e;
 }
 
 div.text-column p {
   margin-top: 0;
+  color: #6e6e6e;
 }
 
 /* FOOTER */
+.footer-section {
+  height: 293px;
+}
+
+footer {
+  display: flex;
+  padding: 50px;
+  background-color: #525351;
+  color: #fff;
+}
+
+footer .row {
+  width: 100%;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  flex-basis: calc(100% / 3);
+}
+
+.company ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.product ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.company ul li {
+  margin-bottom: 12px;
+}
+
+.product ul li {
+  margin-bottom: 12px;
+}
+
+.company ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.product ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.address {
+  line-height: 7px;
+}
+
+/* LAST */
+.privacy {
+  color: #fff;
+  height: 70px;
+}
+
+.privacy ul {
+  display: flex;
+  align-items: center;
+}
+
+.privacy ul li {
+  padding: 15px;
+  list-style-type: none;
+}
+
+.privacy ul li a {
+  color: #6e6e6e;
+  text-decoration: none;
+}
+
+div.footer-col img {
+  margin-bottom: 30px;
+}
+
+.footer-col .company p {
+  text-transform: uppercase;
+}
+
+.footer-col .product p {
+  text-transform: uppercase;
+}
