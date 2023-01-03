@@ -201,6 +201,7 @@ footer .row {
   display: flex;
   flex-direction: column;
   flex-basis: calc(100% / 3);
+  margin-left: 40px;
 }
 
 .company ul {
@@ -233,6 +234,14 @@ footer .row {
 
 .address {
   line-height: 7px;
+}
+
+.company {
+  margin-left: 300px;
+}
+
+.product {
+  margin-left: 100px;
 }
 
 /* LAST */
