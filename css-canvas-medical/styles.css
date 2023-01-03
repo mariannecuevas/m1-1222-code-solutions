@@ -132,7 +132,8 @@ section.clinicians {
 .column-half {
   flex-basis: calc(100%/2);
   padding-top: 30px;
-  margin-right: 50px;
+  margin-right: 25px;
+  margin-left: 25px;
 }
 
 div.column-full h1 {
