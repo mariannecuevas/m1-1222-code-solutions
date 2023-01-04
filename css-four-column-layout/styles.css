@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: Barlow, sans-serif;
+  background-color: #f6f7f9;
+}
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.column-fourth {
+  display: flex;
+  flex-direction: column;
+  flex-basis: calc(100% / 4);
+  align-items: center;
+}
+
+.phone-pic {
+  height: 450px;
+}
+
+.icons {
+  width: 70px;
+  height: 70px;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 30px;
+}
+
+h3 {
+  font-weight: 800;
+}
+
+p {
+  font-weight: 500;
+}
