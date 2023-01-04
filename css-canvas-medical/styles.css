@@ -1,0 +1,279 @@
+body {
+  font-family: Avenir, sans-serif;
+}
+
+.row {
+  display: flex;
+}
+
+/* HEADER WITH NAV LINKS */
+header {
+  width: 100%;
+  background: white;
+  border-bottom: 1px solid #e7e9ec;
+}
+
+.logo {
+  width: 120px;
+}
+
+button.contact {
+  font-family: Avenir, sans-serif;
+  background-color: #294464;
+  color: white;
+  border: none;
+  padding: 7px 10px;
+  margin-right: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 70px;
+  padding-right: 10px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+}
+
+nav ul li a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #a0a0a0;
+}
+
+/* HERO/BANNER */
+.banner {
+  max-width: 1500px;
+  height: 770px;
+  padding-top: 4rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  margin: 0 auto;
+}
+
+.hero-image {
+  position: relative;
+  max-width: 100%;
+  min-height: 656px;
+  background-size: cover;
+  background-position: center;
+  background-image: url("images/hero.jpg");
+}
+
+.overlay {
+  position: absolute;
+  background: linear-gradient(rgb(51 51 51 / 25%), rgb(51 51 51 / 25%));
+  width: 100%;
+  height: 100%;
+  text-align: start;
+}
+
+div.overlay h1 {
+  font-family: "Tiempos Headline", sans-serif;
+  font-weight: normal;
+  font-size: 42px;
+  color: white;
+  max-width: 550px;
+}
+
+div.overlay p {
+  color: white;
+  max-width: 550px;
+  line-height: 1.5rem;
+  padding-bottom: 20px;
+}
+
+button.get-started {
+  font-family: Avenir, sans-serif;
+  font-size: 16px;
+  background-color: #294464;
+  color: white;
+  border: none;
+  padding: 13px 35px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero-text {
+  position: absolute;
+  top: 150px;
+  left: 80px;
+}
+
+/* CLINICIANS SECTION */
+section.clinicians {
+  display: flex;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+  color: #6e6e6e;
+  height: 400px;
+}
+
+.clinicians-container {
+  justify-content: center;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.column-half {
+  flex-basis: calc(100%/2);
+  padding-top: 30px;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+div.column-full h1 {
+  font-family: "Tiempos Headline", sans-serif;
+}
+
+div.column-full p {
+  line-height: 1.5rem;
+}
+
+.column-half ul {
+  list-style: none;
+}
+
+/* READY TO LEARN MORE SECTION */
+section.learn-more div.row {
+  justify-content: space-between;
+  background: white;
+  border-top: 1px solid #e7e9ec;
+  height: 120px;
+}
+
+.text-column {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 90px;
+  width: 240px;
+}
+
+.button-column {
+  display: flex;
+  align-items: center;
+  margin-right: 90px;
+}
+
+div.text-column h1 {
+  font-family: "Tiempos Headline", sans-serif;
+  font-weight: 400;
+  margin-bottom: 3px;
+  padding-top: 10px;
+  color: #6e6e6e;
+}
+
+div.text-column p {
+  margin-top: 0;
+  color: #6e6e6e;
+}
+
+/* FOOTER */
+.footer-section {
+  height: 293px;
+}
+
+footer {
+  display: flex;
+  padding: 50px;
+  background-color: #525351;
+  color: #fff;
+}
+
+footer .row {
+  width: 100%;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  flex-basis: calc(100% / 3);
+  margin-left: 40px;
+}
+
+.company ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.product ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.company ul li {
+  margin-bottom: 12px;
+}
+
+.product ul li {
+  margin-bottom: 12px;
+}
+
+.company ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.product ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.address {
+  line-height: 7px;
+}
+
+.company {
+  margin-left: 300px;
+}
+
+.product {
+  margin-left: 100px;
+}
+
+/* LAST */
+.privacy {
+  color: #fff;
+  height: 70px;
+}
+
+.privacy ul {
+  display: flex;
+  align-items: center;
+}
+
+.privacy ul li {
+  padding: 15px;
+  list-style-type: none;
+}
+
+.privacy ul li a {
+  color: #6e6e6e;
+  text-decoration: none;
+}
+
+div.footer-col img {
+  margin-bottom: 30px;
+}
+
+.footer-col .company p {
+  text-transform: uppercase;
+}
+
+.footer-col .product p {
+  text-transform: uppercase;
+}
