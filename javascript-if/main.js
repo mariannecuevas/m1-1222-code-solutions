@@ -50,8 +50,6 @@ function isOldEnoughToDrive(person) {
 
 function isOldEnoughToDrinkAndDrive(person) {
   if (person.age >= 16 && person.age >= 21) {
-    return true;
-  } else {
     return false;
   }
 }
@@ -72,7 +70,7 @@ function introduceWarnerBro(name) {
   if (name === 'yakko' || name === 'wakko') {
     return "We're the warner brothers!";
   } else if (name === 'dot') {
-    return "I'm cute ~";
+    return "I'm cute~";
   } else {
     return 'Goodnight everybody!';
   }
