@@ -1,7 +1,7 @@
 /* exported defaults */
 function defaults(target, source) {
   for (var keys in source) {
-    if (Object.prototype.hasOwnProperty.call(source, keys) && !Object.prototype.hasOwnProperty.call(target, keys)) {
+    if (typeof target[keys] === 'undefined') {
       target[keys] = source[keys];
     }
   }
