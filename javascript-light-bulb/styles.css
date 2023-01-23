@@ -1,0 +1,35 @@
+.light {
+  background-color: #fef9f1;
+}
+
+.dark {
+  background-color: #111;
+}
+
+div {
+  display: flex;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.light-on {
+  background: #faea84;
+  border-radius: 50%;
+  width: 225px;
+  height: 225px;
+  box-shadow: 0 0 15px #f7d65e;
+  cursor: pointer;
+}
+
+.light-off {
+  background: #222324;
+  border-radius: 50%;
+  width: 225px;
+  height: 225px;
+  box-shadow: 0 0 15px #0c0c0c;
+  cursor: pointer;
+}
