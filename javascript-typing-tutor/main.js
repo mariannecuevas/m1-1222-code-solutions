@@ -11,16 +11,19 @@ function keydown(event) {
     return;
   }
   var typedChar = event.key;
-  if (typedChar === ' ') {
+  if (typedChar === 'Backspace') {
+    charIndex.classList.remove('cursor');
+    charIndex.classList.remove('correct');
+    charIndex.classList.remove('incorrect');
+    charIndex.classList.add('cursor');
+  } else if (typedChar === ' ' && charIndex.innerText !== '') {
+    charIndex.classList.add('incorrect');
+  } else if (typedChar === ' ' && charIndex.innerText === '') {
     charIndex.classList.remove('cursor');
     charIndex.classList.remove('correct');
     charIndex.classList.remove('incorrect');
     charIndex = chars[i + 1];
     i++;
-  } else if (typedChar === 'Backspace') {
-    charIndex.classList.remove('cursor');
-    charIndex.classList.remove('correct');
-    charIndex.classList.remove('incorrect');
   } else {
     if (charIndex.innerText === typedChar) {
       charIndex.classList.remove('cursor');
